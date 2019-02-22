@@ -4,11 +4,14 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     current_line = []
-    num = 1
+    line_position = 1
     katz_deli.each do |chr|
-      current_line.push("#{num}. #{chr}")
-      num += 1
+      current_line.push("#{line_position}. #{chr}")
+      line_position += 1
   end
   puts "The line is currently: #{current_line.join(" ")}"
   end
 end
+
+def take_a_number(katz_deli, name)
+  puts "Welcome, #{name}. You are number #{num} in line."
