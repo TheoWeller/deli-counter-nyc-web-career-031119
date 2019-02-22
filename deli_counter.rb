@@ -1,12 +1,10 @@
 katz_deli = []
-current_line = []
-line_position = 1
 def line(katz_deli)
   if katz_deli.length < 1
     puts "The line is currently empty."
   else
-
-
+    current_line = []
+    line_position = 1
     katz_deli.each do |chr|
       current_line.push("#{line_position}. #{chr}")
       line_position += 1
