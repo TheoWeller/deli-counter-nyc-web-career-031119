@@ -14,5 +14,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  
+  line_position += 1
   puts "Welcome, #{name}. You are number #{line_position} in line."
+  katz_deli.push(name)
+end
