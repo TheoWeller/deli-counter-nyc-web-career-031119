@@ -1,5 +1,4 @@
 katz_deli = []
-line_position = 1
 
 def line(katz_deli)
   if katz_deli.length < 1
