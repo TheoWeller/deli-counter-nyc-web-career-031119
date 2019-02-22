@@ -1,5 +1,6 @@
 katz_deli = []
 line_position = 1
+current_line = []
 def line(katz_deli)
   if katz_deli.length < 1
     puts "The line is currently empty."
